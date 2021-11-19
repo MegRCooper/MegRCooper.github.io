@@ -1,0 +1,113 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #ffffff;
+}
+
+.navbar {
+    background:#020a52;
+}
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: #aaaaaa;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.navbar-collapse .nav-link{
+}
+
+.header {
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.description {
+	left: 50%;
+	position: absolute;
+	top: 45%;
+	transform: translate(-50%, -55%);
+	text-align: center;
+}
+.description h1 {
+	color: #6ab446;
+}
+.description p {
+	color: #fff;
+	font-size: 1.3rem;
+	line-height: 1.5;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -56px;
+    visibility: hidden;
+}
+
+#projects {
+	padding-top: 2em;
+}
+
+.tab-content{
+	margin-left: 2em;
+	margin-right: 2em;
+	padding: 2em;
+	border: 1px solid;
+	border-color: #dee2e6 #dee2e6 #dee2e6;
+}
+
+.nav.nav-pills{
+	padding-left: 3em;
+	padding-top: 3em;
+	padding-right: 3em;
+}
+.nav-pills .nav-link{
+	border: 1px solid;
+	border-color: #dee2e6 #dee2e6 #dee2e6;
+	color: #dee2e6;
+}
+
+.card-title {
+	color: #333;
+	font-size: 1.3rem;
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+.card img {
+	-webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	margin-bottom: 16px;
+}
+
+.page-footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 60px 0 30px;
+}
+.footer-copyright {
+    color: #666;
+    padding: 40px 0;
+}
+html {
+  scroll-behavior: smooth;
+}

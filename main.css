@@ -1,0 +1,64 @@
+body{
+	padding: 0;
+    	margin: 0;
+    	background-color: #FFFFFF
+}
+
+.navbar {
+	background: #151E2A;
+}
+
+.nav-link,
+.navbar-brand {
+	color: #FFFFFF;
+    	cursor: pointer;
+}
+
+.nav-link {
+	margin-right: 1em !important;
+}
+
+.nav-link:hover {
+	color: #aaaaaa;
+}
+
+.navbar-collapse {
+	justify-content: flex-end;
+}
+
+.navbar-collapse .nav-link{ }
+
+header{
+	display: block;
+	background-image: linear-gradient(to right bottom, #0F2027, #2C5364);
+	background-size: cover;
+	position: reletive;
+	
+}
+
+.discription{
+	left: 50%;
+	top: 45%;
+	position: absolute;
+	text-align: center;
+}
+
+.description p, h1{
+	position: absolute;
+	color: #FFFFFF;
+}
+
+.page-footer {
+	background-color: #222;
+    	color: #ccc;
+    	padding: 60px 0 30px;
+}
+
+.footer-copyright {
+	color: #666;
+    	padding: 40px 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}

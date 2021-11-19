@@ -29,10 +29,11 @@ body{
 .navbar-collapse .nav-link{ }
 
 header{
-	display: block;
 	background-image: linear-gradient(to right bottom, #0F2027, #2C5364);
+	background-position: center;
 	background-size: cover;
 	position: reletive;
+	
 	
 }
 

@@ -30,7 +30,7 @@ body{
 
 header{
 	background-image: linear-gradient(to right bottom, #0F2027, #2C5364);
-	background-position: center;
+	background-position: centre;
 	background-size: cover;
 	position: reletive;
 	padding-top: 54px;
@@ -44,11 +44,11 @@ header{
 	left: 50%;
 	top: 45%;
 	position: absolute;
-	text-align: center;
+	text-align: centre;
 }
 
 .description p, h1{
-	position: absolute;
+	position: centre;
 	color: #00000;
 }
 

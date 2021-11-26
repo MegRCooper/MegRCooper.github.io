@@ -33,7 +33,10 @@ header{
 	background-position: center;
 	background-size: cover;
 	position: reletive;
-	
+	padding-top: 54px;
+	margin-top: 54px;
+	margin-bottom: 10px;
+	padding-bottom: 100vh;
 	
 }
 

@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
+    <head>
         <title>Megan Cooper Portfolio</title>
-	    <meta charset="utf-8">
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Should allow for auto reajustment to any screen size. -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="main.css"> <!-- Links to the external CSS file -->
 	</head>
     
@@ -17,7 +17,7 @@
 		<nav class="navbar navbar-expand-lg  fixed-top">
 		<div class="container-fluid"> 
 			<a class="navbar-brand" href="#">Megan Cooper</a>
-			<button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#main-navigation">
+			<button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			
@@ -26,8 +26,11 @@
 					<li class="nav-item">
 						<a class="nav-link" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
 					</li>
+                    <li class="nav-item">
+						<a class="nav-link" href="#aboutMe"><i class="fas fa-user-graduate"></i> About Me.</a>
+					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#topProject"><i class="fa fa-fw fa-code"></i> Projects</a>
+						<a class="nav-link" href="#topProject"><i class="fas fa-code-branch"></i> Projects</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" data-bs-toggle="modal" data-bs-target="#contactForm"><i class="fa fa-fw fa-envelope-open"></i> Contact Me</a>
@@ -41,17 +44,22 @@
 		</nav>
 		
 		<header class="page-header header container-fluid">
-			<div class="overlay"></div>
+		    <div class="overlay"></div>
 			<div class="description">
-				<h1>Weclome!</h1>
-				<p>Welcome to my portfolio, this will introduce me, provide a quick sample of some of my work and 
-				provide information on how to get in contact.</p>
+                <h1>Weclome!</h1>
+				<p>Welcome to my portfolio, this will introduce me, provide a quick sample of my top three most recent projects. Also you'll be provided with information on how to get in contact.</p>
+                <br/> I look forward to hearing from you.
 			</div>
 		</header>
+
+    <a class="anchor" id="aboutMe"></a>
+        <div id="about me" class="container features">
+		<h2>About Me!</h2>
+        <p>I am a student at the University Of Lincoln, currently in my final year of my BSc Computer Science course. I am planning on graduating in 2022, on track to receive honours with my degree.</p>
 	
 	<a class="anchor" id="topProject"></a>
 		<div id="projects" class="container features">
-			<h2>Below are some of my more recent projects.</h2>
+		<h2>Below are some of my more recent projects.</h2>
 			<div class="row">
 				<div class="col-lg-4">
 					<!-- First "card" for most recent projects -->
@@ -65,19 +73,32 @@
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- Second "card" for most recent projects -->
-			<div class="col-lg-4">
-				<div class="card">
-					<img class="card-img-top" src="ComingSoon.jpg" alt="A banner picture, that says coming soon on it.">
-					<div class="card-body">
-						<h5 class="card-title"></h5>
-						<p class="card-text">A project completed as part of my final year of my BSc, this is the computer science equivilent of a dissertation. My project consists of 
-						looking at how a user-centered design can impact the use of virtual reality, currently waiting for ethical approval. Coming Soon</p>
-						<a href="https://github.com/MegRCooper/FinalYearProject" class="btn btn-primary">View Repository</a>
-					</div>
-				</div>
-			</div>
+
+			    <!-- Second "card" for most recent projects -->
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img class="card-img-top" src="ComingSoon.jpg" alt="A banner picture, that says coming soon on it.">
+                        <div class="card-body">
+                            <h5 class="card-title">Dissertation (Project):</h5>
+                            <p class="card-text">A project completed as part of my final year of my BSc, this is the computer science equivilent of a dissertation. My project consists of 
+                            looking at how a user-centered design can impact the use of virtual reality, currently waiting for ethical approval. Coming Soon</p>
+                            <a href="https://github.com/MegRCooper/FinalYearProject" class="btn btn-primary">View Repository</a>
+                        </div>
+                    </div>
+			    </div>
+		
+                <!-- Third "card" for most recent projects -->
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img class="card-img-top" src="ComingSoon.jpg" alt="HTML code image.">
+                        <div class="card-body">
+                            <h5 class="card-title">Portfolio Website:</h5>
+                            <p class="card-text">This website, which I built upon theoretical knoweledge of HTML and CSS from A-Level computer Science to create a physical portfolio.</p>
+                            <a href="https://github.com/MegRCooper/FinalYearProject" class="btn btn-primary">View Repository</a>
+                        </div>
+                    </div>
+			    </div>
+		    </div>
 		</div>
 	
 	
@@ -85,9 +106,8 @@
 			<div class="col-lg-4 col-md-4 col-sm-12">
 				<h6 class="text-uppercase font-weight-bold">Contact</h6>
 				<br/>MegRCooper1166@outlook.com
-				<br/>https://www.linkedin.com/in/megan-cooper-59b65119b/
+                <a class="nav-link" href="https://www.linkedin.com/in/megan-cooper-59b65119b/"><i class="fab fa-linkedin"></i>GitHub</a><br/>https://www.linkedin.com/in/megan-cooper-59b65119b/
 			</div>
 		</footer>
-
     </body>
 </html>

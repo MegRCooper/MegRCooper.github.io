@@ -40,7 +40,7 @@ header{
 	
 }
 
-.discription{
+.description{
 	left: 50%;
 	top: 45%;
 	position: absolute;
@@ -49,13 +49,12 @@ header{
 
 .description p, h1{
 	position: centre;
-	color: #00000;
+	color: #FFFFFF;
 }
 
 .page-footer {
 	background-color: #222;
     	color: #ccc;
-    	padding: 60px 0 30px;
 }
 
 .footer-copyright {

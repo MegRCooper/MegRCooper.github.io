@@ -43,6 +43,7 @@ header{
 .description{
 	left: 50%;
 	top: 45%;
+	transform: translate(-50%, -55%); 
 	position: absolute;
 	text-align: centre;
 }

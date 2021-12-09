@@ -48,8 +48,8 @@
 	<div class="overlay"></div>
 	<div class="description">
 		<h1>Weclome!</h1>
-		<p>Welcome to my portfolio, this will introduce me, provide a quick sample of my top three most recent projects. Also you'll be provided 
-		with information on how to get in contact. I look forward to hearing from you.</p>
+		<p>Welcome to my portfolio, where I will introduce myself, provide a sample of my three most recent projects, were you'll be provided 
+		with information on how to get in contact should you wish. I look forward to hearing from you. <br> - Megan</br></p>
 	</div>
 	</header>
 
@@ -60,6 +60,7 @@
 		<p>Hey, I am a student at the University Of Lincoln, currently in my final year of my BSc Computer Science course. I am planning on graduating in 2022, on 
 		track to receive honours with my degree. I love <b> problem solving, talking to others and challenging myself. </b> I am looking for a new career that 
 		will allow me to build on the knowledge I've gained over the past few years and apply the theoretical to a pratical world. </p> 
+		<!-- Add to further make it a little longer -->
 	</div>
 
 	<!-- Second "section"; Links to the header with id-topProjects, but in reality has the three most recent projects (Will NEED updating regularly.) -->
@@ -110,6 +111,7 @@
 	</div>
 	</div>
 	
+	<!-- Anchored to the menu br at the top, creates interactive tabbed table -->
 	<a class="anchor" id="additionalInfo"></a>
 	<ul class="nav nav-tabs nav-fill" id="additionalInfo" role="tablist">
 	<li class="nav-item dropdown active d-lg-none">
@@ -134,7 +136,7 @@
 			<button class="nav-link active" id="programmingLanguages-tab" data-bs-toggle="tab" data-bs-target="#programmingLanguages" type="button" role="tab" aria-controls="programmingLanguages" aria-selected="true">Programming langages, I've used.</button> 
 		</li>
 		<li class="nav-item d-none d-lg-block" role="presentation">
-			<button class="nav-link" id="universityModules-tab" data-bs-toggle="tab" data-bs-target="#universityModules" type="button" role="tab" aria-controls="universityModules" aria-selected="false">My University Modules (Pass/ Fail/ TBC)</a></li> </button>
+			<button class="nav-link" id="universityModules-tab" data-bs-toggle="tab" data-bs-target="#universityModules" type="button" role="tab" aria-controls="universityModules" aria-selected="false">My University Modules (Pass/ Fail/ TBC)</button>
 		</li>
 		<li class="nav-item d-none d-lg-block" role="presentation">
 			<button class="nav-link" id="smallProjects-tab" data-bs-toggle="tab" data-bs-target="#smallProjects" type="button " role="tab" aria-controls="smallProjects" aria-selected="false">Topics I've Researched (started/ intrest based.)</button>
@@ -143,12 +145,14 @@
 			<button class="nav-link" id="hobbies-tab" data-bs-toggle="tab" data-bs-target="#hobbies" type="button " role="tab" aria-controls="hobbies" aria-selected="false">Hobbies</button>
 		</li>
 	</ul>
+	
 	<div class="tab-content" id="#additionalInfo">
+	<!-- Prog langs used, gone for a less specfic measurement of understanding -->
 	<div class="tab-pane fade show active" id="programmingLanguages" role="tabpanel" aria-labelledby="programmingLanguages-tab">
 	<div class="row">
 		<div class="col-lg-6 col-md-6 col-sm-12">
 			<h3 class="feature-title">Languages I've used - Most commonly used:</h3>
-			<p> C# <br> Python </br>  <br>C++</br> </p>				
+			<p> C# <br> Python </br> <br>C++</br> </p>				
 		</div>
 		<div class="col-lg-6 col-md-6 col-sm-12">
 			<h3 class="feature-title">Minimal use for Academic uses only: </h3>
@@ -160,7 +164,8 @@
 		</div>
 	</div>
 	</div>
-
+	
+	<!-- University modules, using P/F/TBC rather than percent looks better personally -->
 	<div class="tab-pane fade" id="universityModules" role="tabpanel" aria-labelledby="universityModules-tab">
 	<div class="row justify-content-md-center">
 		<div class="col-md-auto">
@@ -169,7 +174,7 @@
 				<p>- Computer Architectures: <span class="badge bg-secondary">Pass</span></p>
 				<p>- Maths for Computing: <span class="badge bg-secondary">Pass</span></p>
 				<p>- Object-Oriented Programming: <span class="badge bg-secondary">Pass</span></p>
-				<p>- Operating Systems: <span class="badge bg-secondary">Pass</span</p>
+				<p>- Operating Systems: <span class="badge bg-secondary">Pass</span></p>
 				<p>- Problem Solving: <span class="badge bg-secondary">Pass</span></p>
 				<p>- Programming fundaments: <span class="badge bg-secondary">Pass</span></p>
 		</div>
@@ -194,7 +199,8 @@
 		</div>
 	</div>
 	</div>
-		
+	
+<!-- Research Projects Tab - ID = smallProjects as there incomplete/ research only. -->	
 	<div class="tab-pane fade" id="smallProjects" role="tabpanel" aria-labelledby="smallProjects-tab">
 	<div class="row">
 	<div class="col-lg-3">
@@ -219,21 +225,22 @@
 			</div>
 		<!-- Seperate "cards" for each of the research projects done.  -->
 		<div class="card" id="projCard">
-		<img class="card-img-top" src=".jpg" alt=" ">
+		<img class="card-img-top" src="BrainScans.jpg" alt=" image of MRI scans of the brain. ">
 			<div class="card-body">
-				<h5 class="card-title">U</h5>
-				<p class="card-text">Research completed as part of the UROS over the summer of 2021, however due to unforseen circumstances I was unable to 
-				submit the required report to gain the offical recognition, I learnt a lot about Machine Learning. I also learned how technology can have a real
-				impact in other setors such as health.</p>
+				<h5 class="card-title">URVOS</h5>
+				<p class="card-text">Research completed as part of the URVOS over the summer of 2021, however due to unforseen circumstances I was unable to 
+				submit the required report to gain the offical recognition, however I learnt a lot about Machine Learning. I also learned how technology can have a real
+				impact in other setors such as health as the project focused around using ML to classify tumours on MRI scans. BRATS data was used..</p>
 			</div>
 		
+		</div>
 		</div>
 	</div>
 	</div>
 	</div>
 		
 	<div class="tab-pane fade" id="hobbies" role="tabpanel" aria-labelledby="hobbies-tab">
-	div class="row">
+	<div class="row">
 	<div class="col-lg-3">
 	<div class="card" id="hobbCard">			
 	<div id="carousel" class="carousel slide" data-bs-ride="carousel">
@@ -263,19 +270,22 @@
 		</div>
 	</div>
 	</div>
-		<div class="col-lg-3">
-		<div class="card" id="hobbCard">
-			<img class="card-img-top" src="Books.jpg" alt="Image of Books">
-		<div class="card-body">
-			<h5 class="card-title">Reading</h5>
-			<p class="card-text">Reading is a large passion for me, I love various genres but definatley have an affinity for Y/A and crime/ mystery. 
-			The list of books thats I've read is extensive and it's a great way to relax and take a break when needed. Favorites include, Famous Five, 
-			Thirteen and the girl with a loudening voice.</p>
-		</div>
-		</div>
-		</div>
+	<div class="col-lg-3">
+	<div class="card" id="hobbCard">
+	<img class="card-img-top" src="Books.jpg" alt="Image of Books">
+	<div class="card-body">
+		<h5 class="card-title">Reading</h5>
+		<p class="card-text">Reading is a large passion for me, I love various genres but definatley have an affinity for Y/A and crime/ mystery. 
+		The list of books thats I've read is extensive and it's a great way to relax and take a break when needed. Favorites include, Famous Five, 
+		Thirteen and the girl with a loudening voice.</p>
 	</div>
 	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	<!-- Needs sorting out -->
 	<footer class="page-footer">
 		<div class="col-lg-4 col-md-4 col-sm-12">
 			<h6 class="text-uppercase font-weight-bold">Contact Me @:</h6>
@@ -283,5 +293,5 @@
 			<a class="nav-link" href="https://www.linkedin.com/in/megan-cooper-59b65119b/"><i class="fab fa-linkedin"></i> Linkedin</a>
 		</div>
 	</footer>
-	</body>
+</body>
 </html>

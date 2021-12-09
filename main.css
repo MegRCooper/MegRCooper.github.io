@@ -108,6 +108,14 @@ a.anchor {
 	margin-bottom: 16px;
 }
 
+span {
+  border: 1px solid #ccc;
+  padding: .2em;
+  border-radius: .2em;
+  display: inline-flex;
+  font-weight: bold;
+  align-items: center;
+}
 
 .footer-copyright {
 	color: #666;
